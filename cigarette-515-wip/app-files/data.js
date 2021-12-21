@@ -1,8 +1,8 @@
 var APP_DATA = {
   "scenes": [
     {
-      "id": "0-on-deck",
-      "name": "On Deck",
+      "id": "0-wip-20211221",
+      "name": "WIP 20211221",
       "levels": [
         {
           "tileSize": 256,
@@ -28,19 +28,19 @@ var APP_DATA = {
       ],
       "faceSize": 4096,
       "initialViewParameters": {
-        "yaw": 2.0148557559353844,
-        "pitch": 0.4744171162677233,
-        "fov": 1.4247463008564816
+        "yaw": 1.5728965286924161,
+        "pitch": 0.5987105348423807,
+        "fov": 1.2933824216075565
       },
       "linkHotspots": [],
       "infoHotspots": []
     }
   ],
-  "name": "Cigarette-515 WIP",
+  "name": "Cigarette 515 WIP",
   "settings": {
     "mouseViewMode": "drag",
     "autorotateEnabled": false,
-    "fullscreenButton": true,
+    "fullscreenButton": false,
     "viewControlButtons": false
   }
 };

@@ -738,11 +738,30 @@ var APP_DATA = {
       ],
       "faceSize": 2048,
       "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
+        "yaw": 1.6383959672915038,
+        "pitch": 0.2842115801109948,
+        "fov": 1.4408666390078466
       },
-      "linkHotspots": [],
+      "linkHotspots": [
+        {
+          "yaw": -3.0084962266455566,
+          "pitch": 0.1309927921068148,
+          "rotation": 0,
+          "target": "16-vip-head"
+        },
+        {
+          "yaw": -0.0945070046687615,
+          "pitch": 0.1510618979330065,
+          "rotation": 0,
+          "target": "17-vip-shower"
+        },
+        {
+          "yaw": -0.8321904599584755,
+          "pitch": 0.1507492775861774,
+          "rotation": 0,
+          "target": "14-lower-hallway-fwd"
+        }
+      ],
       "infoHotspots": []
     },
     {
@@ -769,11 +788,18 @@ var APP_DATA = {
       ],
       "faceSize": 2048,
       "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
+        "yaw": 1.716032398029534,
+        "pitch": 0.27180697191733927,
+        "fov": 1.4408666390078466
       },
-      "linkHotspots": [],
+      "linkHotspots": [
+        {
+          "yaw": -1.631230237189115,
+          "pitch": 0.16138125168118123,
+          "rotation": 0,
+          "target": "15-vip-cabin"
+        }
+      ],
       "infoHotspots": []
     },
     {
@@ -800,11 +826,18 @@ var APP_DATA = {
       ],
       "faceSize": 2048,
       "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
+        "yaw": 1.8963814694522618,
+        "pitch": 0.40346546726232546,
+        "fov": 1.4408666390078466
       },
-      "linkHotspots": [],
+      "linkHotspots": [
+        {
+          "yaw": -1.5776808365028572,
+          "pitch": 0.40623100001471,
+          "rotation": 0,
+          "target": "15-vip-cabin"
+        }
+      ],
       "infoHotspots": []
     }
   ],

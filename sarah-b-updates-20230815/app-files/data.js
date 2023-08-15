@@ -180,10 +180,10 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": -1.6510860767387658,
-          "pitch": 0.2627177110078911,
+          "yaw": -1.6396530559820324,
+          "pitch": 0.2608235499073235,
           "rotation": 0,
-          "target": "5-master-stbd"
+          "target": "4-master-stbd"
         },
         {
           "yaw": 1.8934965183057004,
@@ -202,62 +202,18 @@ var APP_DATA = {
           "pitch": 0.0290392163092541,
           "rotation": 0,
           "target": "15-vip-cabin"
+        },
+        {
+          "yaw": -0.07943171356422951,
+          "pitch": -0.38174515718260515,
+          "rotation": 5.497787143782138,
+          "target": "1-galley"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "4-master-port",
-      "name": "MASTER PORT",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 2048,
-      "initialViewParameters": {
-        "yaw": 2.337945152459536,
-        "pitch": 0.12673386844552326,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 2.1012753916925577,
-          "pitch": 0.2236905867483312,
-          "rotation": 0,
-          "target": "3-aft-hallway"
-        },
-        {
-          "yaw": 3.007912274241132,
-          "pitch": 0.16057357293060903,
-          "rotation": 3.141592653589793,
-          "target": "5-master-stbd"
-        },
-        {
-          "yaw": -1.551391391618413,
-          "pitch": 0.2063012100577346,
-          "rotation": 0,
-          "target": "6-master-heads"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "5-master-stbd",
+      "id": "4-master-stbd",
       "name": "MASTER STBD",
       "levels": [
         {
@@ -280,40 +236,128 @@ var APP_DATA = {
       ],
       "faceSize": 2048,
       "initialViewParameters": {
-        "yaw": 2.637240608857776,
-        "pitch": 0.15022038412356764,
-        "fov": 1.5707963267948966
+        "yaw": 1.4977063183057826,
+        "pitch": 0.2789516465138302,
+        "fov": 1.262160329804369
       },
       "linkHotspots": [
         {
-          "yaw": 0.5442628421565807,
-          "pitch": 0.12901654989171618,
+          "yaw": 0.028421325335804326,
+          "pitch": 0.1744343680085283,
           "rotation": 3.141592653589793,
-          "target": "4-master-port"
+          "target": "5-master-port"
         },
         {
-          "yaw": -1.4432555394773985,
-          "pitch": 0.38320303312945647,
+          "yaw": -2.2030183015300953,
+          "pitch": 0.2226486464841706,
           "rotation": 0,
-          "target": "9-master-closet"
+          "target": "6-master-closet"
         },
         {
-          "yaw": 1.4935225735010151,
-          "pitch": 0.1823537423154029,
-          "rotation": 0.7853981633974483,
+          "yaw": 0.971834294910817,
+          "pitch": 0.16358661489131698,
+          "rotation": 0,
           "target": "3-aft-hallway"
         },
         {
-          "yaw": 0.4175398949847864,
-          "pitch": 0.13421467459187397,
+          "yaw": -0.07147750296834943,
+          "pitch": 0.127651314211505,
           "rotation": 4.71238898038469,
-          "target": "6-master-heads"
+          "target": "7-master-heads"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "6-master-heads",
+      "id": "5-master-port",
+      "name": "MASTER PORT",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2048,
+      "initialViewParameters": {
+        "yaw": 1.4725502022981969,
+        "pitch": 0.28862542479468445,
+        "fov": 1.395287170018175
+      },
+      "linkHotspots": [
+        {
+          "yaw": 2.762071429342016,
+          "pitch": 0.1943742384755751,
+          "rotation": 3.141592653589793,
+          "target": "4-master-stbd"
+        },
+        {
+          "yaw": 1.8850920759529366,
+          "pitch": 0.18975094731300324,
+          "rotation": 11.780972450961727,
+          "target": "3-aft-hallway"
+        },
+        {
+          "yaw": -1.8599777971775175,
+          "pitch": 0.33177555908784306,
+          "rotation": 0,
+          "target": "7-master-heads"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "6-master-closet",
+      "name": "MASTER CLOSET",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 2048,
+      "initialViewParameters": {
+        "yaw": 1.8363374530373715,
+        "pitch": 0.10936950864175188,
+        "fov": 1.395287170018175
+      },
+      "linkHotspots": [
+        {
+          "yaw": -1.4894948455853996,
+          "pitch": 0.20424858528031464,
+          "rotation": 0,
+          "target": "4-master-stbd"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "7-master-heads",
       "name": "MASTER HEADS",
       "levels": [
         {
@@ -345,25 +389,25 @@ var APP_DATA = {
           "yaw": 1.2169683736511399,
           "pitch": 0.20364649848101024,
           "rotation": 0,
-          "target": "7-master-shower"
+          "target": "8-master-shower"
         },
         {
           "yaw": -2.729119217346316,
           "pitch": 0.1921325335046955,
           "rotation": 0.7853981633974483,
-          "target": "8-master-toilet"
+          "target": "9-master-toilet"
         },
         {
           "yaw": -0.6231227817813689,
           "pitch": 0.13258686394589247,
           "rotation": 0,
-          "target": "4-master-port"
+          "target": "5-master-port"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "7-master-shower",
+      "id": "8-master-shower",
       "name": "MASTER SHOWER",
       "levels": [
         {
@@ -395,13 +439,13 @@ var APP_DATA = {
           "yaw": -3.0269550063355464,
           "pitch": 0.26581444522919284,
           "rotation": 0,
-          "target": "6-master-heads"
+          "target": "7-master-heads"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "8-master-toilet",
+      "id": "9-master-toilet",
       "name": "MASTER TOILET",
       "levels": [
         {
@@ -433,45 +477,7 @@ var APP_DATA = {
           "yaw": -0.5105987204766258,
           "pitch": 0.26337482922140154,
           "rotation": 0,
-          "target": "6-master-heads"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "9-master-closet",
-      "name": "MASTER CLOSET",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 2048,
-      "initialViewParameters": {
-        "yaw": 1.3145814028811937,
-        "pitch": 0.04721346893017042,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": -1.6569750435206814,
-          "pitch": 0.3171764667382213,
-          "rotation": 0,
-          "target": "5-master-stbd"
+          "target": "7-master-heads"
         }
       ],
       "infoHotspots": []
@@ -622,12 +628,6 @@ var APP_DATA = {
           "pitch": 0.35667209311712433,
           "rotation": 3.141592653589793,
           "target": "3-aft-hallway"
-        },
-        {
-          "yaw": -1.7006560922881935,
-          "pitch": 0.1454283883547003,
-          "rotation": 0,
-          "target": "5-master-stbd"
         }
       ],
       "infoHotspots": []
